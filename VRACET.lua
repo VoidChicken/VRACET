@@ -5,7 +5,7 @@ return function(command, params)
        else
          local sound = Instance.new("Sound")
           sound.Parent = game.Soundscape
-          game.Soudscape.Music.SoundId = "rbxassetid://" .. params
+          game.Soundscape.Music.SoundId = "rbxassetid://" .. params
       end
     end
 
