@@ -7,6 +7,7 @@ return function(command, params)
           sound.Parent = game.Soundscape
           game.Soudscape.Music.SoundId = "rbxassetid://" .. params
       end
+    end
 
   return false
 end
